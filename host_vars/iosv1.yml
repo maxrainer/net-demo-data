@@ -1,3 +1,4 @@
 ---
-hostname: iosv1
 
+hostname: iosv1
+iosv1_only: true
