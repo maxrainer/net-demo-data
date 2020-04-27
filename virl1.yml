@@ -1,0 +1,14 @@
+---
+all: 
+  hosts: 
+    iosv1:
+      ansible_host: 172.16.1.101
+  vars: 
+    connection: network
+  children:
+    ios: 
+      hosts: 
+        iosv1
+      vars: 
+        network_os: ios
+
