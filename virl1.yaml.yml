@@ -1,4 +1,5 @@
-plugin: yaml
+---
+# yaml plugin used
 
 all: 
   hosts: 
