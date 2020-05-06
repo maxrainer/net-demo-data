@@ -21,6 +21,7 @@ all:
         iosv1: 
         iosv2:
         csr1000v-1:
+        iosvl2-1:
     iosxr: 
       hosts: 
         iosxrv-1:
