@@ -5,8 +5,39 @@ all:
   hosts: 
     iosv1:
       ansible_host: 172.16.1.101
+    iosv2:
+      ansible_host: 172.16.1.102
+    csr1000v-1:
+      ansible_host: 172.16.1.103
+    iosxrv-1:
+      ansible_host: 172.16.1.104
+    iosvl2-1:
+      ansible_host: 172.16.1.105
+    nx-osv-1:
+      ansible_host: 172.16.1.106
   children:
-    ios: 
+    ios:
       hosts: 
-        iosv1
+        iosv1: 
+        iosv2:
+        csr1000v-1:
+    iosxr: 
+      hosts: 
+        iosxrv-1:
+    nexus:
+      hosts: 
+        nx-osv-1:
+    switch:
+      hosts:
+        iosvl2-1:
+        nx-osv-1:
+    router: 
+      hosts:
+        iosv1: 
+        iosv2:
+        csr1000v-1:
+        iosxrv-1:
+        
+        
+
 
