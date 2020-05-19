@@ -18,7 +18,7 @@
     },
     "GigabitEthernet0/1": {
         "bandwidth": 1000000,
-        "description": null,
+        "description": "test1",
         "duplex": "Auto",
         "ipv4": [],
         "lineprotocol": "down",
