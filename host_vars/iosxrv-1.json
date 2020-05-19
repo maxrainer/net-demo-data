@@ -1,0 +1,39 @@
+{
+    "GigabitEthernet0/0/0/0": {
+        "bandwidth": 1000000,
+        "description": null,
+        "duplex": "Full",
+        "ipv4": null,
+        "ipv6": [],
+        "lineprotocol": "administratively down",
+        "macaddress": "fa16.3ed5.5991",
+        "mtu": 1514,
+        "operstatus": "administratively down",
+        "type": "GigabitEthernet"
+    },
+    "MgmtEth0/0/CPU0/0": {
+        "bandwidth": 1000000,
+        "description": null,
+        "duplex": null,
+        "ipv4": {
+            "address": "172.16.1.104",
+            "masklen": 24
+        },
+        "lineprotocol": "up",
+        "macaddress": "5e00.0001.0000",
+        "mtu": 1514,
+        "operstatus": "up",
+        "type": "Management Ethernet"
+    },
+    "Null0": {
+        "bandwidth": 0,
+        "description": null,
+        "duplex": null,
+        "ipv4": null,
+        "lineprotocol": "up",
+        "macaddress": "Unknown",
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": null
+    }
+}
