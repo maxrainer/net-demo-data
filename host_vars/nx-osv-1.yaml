@@ -3,8 +3,8 @@ intfs:
         bandwidth: 1000000
         description: first real interface
         duplex: full
-        macaddress: 0000.0000.002f
-        mode: routed
+        macaddress: fa16.3ef9.b04e
+        mode: access
         mtu: '1500'
         speed: 1000 Mb/s
         state: down
@@ -102,8 +102,8 @@ intfs:
     Ethernet2/2:
         bandwidth: 1000000
         duplex: auto
-        macaddress: 0000.0000.002f
-        mode: routed
+        macaddress: fa16.3e71.d68a
+        mode: access
         mtu: '1500'
         speed: 1000 Mb/s
         state: down
