@@ -1,24 +1,24 @@
 intfs:
     GigabitEthernet0/0:
         bandwidth: 1000000
-        description: mgmt
+        description: null
         duplex: Auto
         ipv4:
-        -   address: 172.16.1.101
+        -   address: 172.16.1.102
             subnet: '24'
         lineprotocol: up
-        macaddress: 5e00.0002.0000
+        macaddress: 5e00.0003.0000
         mediatype: RJ45
         mtu: 1500
         operstatus: up
         type: iGbE
     GigabitEthernet0/1:
-        bandwidth: 100000
-        description: test2
-        duplex: Full
+        bandwidth: 1000000
+        description: null
+        duplex: Auto
         ipv4: []
         lineprotocol: down
-        macaddress: fa16.3ec1.487d
+        macaddress: fa16.3e4a.e207
         mediatype: RJ45
         mtu: 1500
         operstatus: administratively down
@@ -28,7 +28,7 @@ intfs:
         description: null
         duplex: null
         ipv4:
-        -   address: 10.255.255.1
+        -   address: 10.255.255.2
             subnet: '32'
         lineprotocol: up
         macaddress: null
