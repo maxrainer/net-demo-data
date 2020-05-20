@@ -41,7 +41,7 @@ intfs:
         macaddress: fa16.3e74.9da6
         mediatype: RJ45
         mtu: 1500
-        operstatus: up
+        operstatus: administratively down
         type: iGbE
     Vlan1:
         bandwidth: 1000000
