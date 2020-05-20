@@ -1,0 +1,58 @@
+intfs:
+    GigabitEthernet0/0:
+        bandwidth: 1000000
+        description: null
+        duplex: Auto
+        ipv4: []
+        lineprotocol: null
+        macaddress: 5e00.0004.0000
+        mediatype: RJ45
+        mtu: 1500
+        operstatus: up
+        type: iGbE
+    GigabitEthernet0/1:
+        bandwidth: 1000000
+        description: null
+        duplex: Auto
+        ipv4: []
+        lineprotocol: null
+        macaddress: fa16.3e11.710b
+        mediatype: RJ45
+        mtu: 1500
+        operstatus: up
+        type: iGbE
+    GigabitEthernet0/2:
+        bandwidth: 1000000
+        description: null
+        duplex: Auto
+        ipv4: []
+        lineprotocol: null
+        macaddress: fa16.3e00.4ebc
+        mediatype: RJ45
+        mtu: 1500
+        operstatus: up
+        type: iGbE
+    GigabitEthernet0/3:
+        bandwidth: 1000000
+        description: null
+        duplex: Auto
+        ipv4: []
+        lineprotocol: null
+        macaddress: fa16.3e74.9da6
+        mediatype: RJ45
+        mtu: 1500
+        operstatus: up
+        type: iGbE
+    Vlan1:
+        bandwidth: 1000000
+        description: null
+        duplex: null
+        ipv4:
+        -   address: 172.16.1.105
+            subnet: '24'
+        lineprotocol: up
+        macaddress: 5e00.0004.8001
+        mediatype: null
+        mtu: 1500
+        operstatus: up
+        type: Ethernet SVI
