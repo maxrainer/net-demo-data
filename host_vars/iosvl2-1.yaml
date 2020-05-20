@@ -45,7 +45,7 @@ intfs:
         type: iGbE
     Vlan1:
         bandwidth: 1000000
-        description: null
+        description: test
         duplex: null
         ipv4:
         -   address: 172.16.1.105

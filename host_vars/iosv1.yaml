@@ -14,7 +14,7 @@ intfs:
         type: iGbE
     GigabitEthernet0/1:
         bandwidth: 100000
-        description: test2
+        description: test4
         duplex: Full
         ipv4: []
         lineprotocol: down
