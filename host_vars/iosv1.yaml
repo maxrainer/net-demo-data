@@ -1,0 +1,37 @@
+GigabitEthernet0/0:
+    bandwidth: 1000000
+    description: null
+    duplex: Auto
+    ipv4:
+    -   address: 172.16.1.101
+        subnet: '24'
+    lineprotocol: up
+    macaddress: 5e00.0002.0000
+    mediatype: RJ45
+    mtu: 1500
+    operstatus: up
+    type: iGbE
+GigabitEthernet0/1:
+    bandwidth: 1000000
+    description: test1
+    duplex: Auto
+    ipv4: []
+    lineprotocol: down
+    macaddress: fa16.3ec1.487d
+    mediatype: RJ45
+    mtu: 1500
+    operstatus: administratively down
+    type: iGbE
+Loopback0:
+    bandwidth: 8000000
+    description: null
+    duplex: null
+    ipv4:
+    -   address: 10.255.255.1
+        subnet: '32'
+    lineprotocol: up
+    macaddress: null
+    mediatype: null
+    mtu: 1514
+    operstatus: up
+    type: null
