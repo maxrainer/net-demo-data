@@ -1,58 +1,73 @@
 intfs:
-    GigabitEthernet0/0:
-        bandwidth: 1000000
-        description: null
-        duplex: Auto
-        ipv4: []
-        lineprotocol: null
-        macaddress: 5e00.0004.0000
-        mediatype: RJ45
-        mtu: 1500
-        operstatus: up
-        type: iGbE
-    GigabitEthernet0/1:
-        bandwidth: 1000000
-        description: null
-        duplex: Auto
-        ipv4: []
-        lineprotocol: null
-        macaddress: fa16.3e11.710b
-        mediatype: RJ45
-        mtu: 1500
-        operstatus: up
-        type: iGbE
-    GigabitEthernet0/2:
-        bandwidth: 1000000
-        description: null
-        duplex: Auto
-        ipv4: []
-        lineprotocol: null
-        macaddress: fa16.3e00.4ebc
-        mediatype: RJ45
-        mtu: 1500
-        operstatus: up
-        type: iGbE
-    GigabitEthernet0/3:
-        bandwidth: 1000000
-        description: null
-        duplex: Auto
-        ipv4: []
-        lineprotocol: null
-        macaddress: fa16.3e74.9da6
-        mediatype: RJ45
-        mtu: 1500
-        operstatus: administratively down
-        type: iGbE
-    Vlan1:
-        bandwidth: 1000000
-        description: test
-        duplex: null
-        ipv4:
-        -   address: 172.16.1.105
-            subnet: '24'
-        lineprotocol: up
-        macaddress: 5e00.0004.8001
-        mediatype: null
-        mtu: 1500
-        operstatus: up
-        type: Ethernet SVI
+    interfaces:
+    -   enabled: true
+        name: GigabitEthernet0/0
+    -   enabled: true
+        name: GigabitEthernet0/1
+    -   enabled: true
+        name: GigabitEthernet0/2
+    -   enabled: false
+        name: GigabitEthernet0/3
+    -   description: test
+        enabled: true
+        name: Vlan1
+    l2_interfaces:
+    -   name: GigabitEthernet0/0
+    -   access:
+            vlan: 10
+        name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/3
+    l3_interfaces:
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/3
+    -   ipv4:
+        -   address: 172.16.1.105 255.255.255.0
+        name: Vlan1
+    lacp:
+        system:
+            priority: 32768
+    lacp_interfaces:
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/3
+    -   name: Vlan1
+    lag_interfaces:
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/3
+    vlans:
+    -   mtu: 1500
+        name: default
+        shutdown: disabled
+        state: active
+        vlan_id: 1
+    -   mtu: 1500
+        name: VLAN0010
+        shutdown: disabled
+        state: active
+        vlan_id: 10
+    -   mtu: 1500
+        name: fddi-default
+        shutdown: enabled
+        state: active
+        vlan_id: 1002
+    -   mtu: 1500
+        name: token-ring-default
+        shutdown: enabled
+        state: active
+        vlan_id: 1003
+    -   mtu: 1500
+        name: fddinet-default
+        shutdown: enabled
+        state: active
+        vlan_id: 1004
+    -   mtu: 1500
+        name: trnet-default
+        shutdown: enabled
+        state: active
+        vlan_id: 1005

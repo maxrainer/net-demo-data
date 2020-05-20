@@ -1,38 +1,20 @@
 intfs:
-    GigabitEthernet0/0:
-        bandwidth: 1000000
-        description: null
-        duplex: Auto
-        ipv4:
-        -   address: 172.16.1.102
-            subnet: '24'
-        lineprotocol: up
-        macaddress: 5e00.0003.0000
-        mediatype: RJ45
-        mtu: 1500
-        operstatus: up
-        type: iGbE
-    GigabitEthernet0/1:
-        bandwidth: 1000000
-        description: null
-        duplex: Auto
-        ipv4: []
-        lineprotocol: down
-        macaddress: fa16.3e4a.e207
-        mediatype: RJ45
-        mtu: 1500
-        operstatus: administratively down
-        type: iGbE
-    Loopback0:
-        bandwidth: 8000000
-        description: null
-        duplex: null
-        ipv4:
-        -   address: 10.255.255.2
-            subnet: '32'
-        lineprotocol: up
-        macaddress: null
-        mediatype: null
-        mtu: 1514
-        operstatus: up
-        type: null
+    interfaces:
+    -   enabled: true
+        name: loopback0
+    -   duplex: auto
+        enabled: true
+        name: GigabitEthernet0/0
+        speed: '1000'
+    -   duplex: auto
+        enabled: false
+        name: GigabitEthernet0/1
+        speed: '1000'
+    l3_interfaces:
+    -   ipv4:
+        -   address: 10.255.255.2 255.255.255.255
+        name: loopback0
+    -   ipv4:
+        -   address: 172.16.1.102 255.255.255.0
+        name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1

@@ -1,0 +1,504 @@
+intfs:
+    default_interfaces:
+    - mgmt0
+    interfaces:
+    -   description: first real interface
+        duplex: full
+        mode: layer2
+        name: Ethernet2/1
+        speed: '1000'
+    -   mode: layer2
+        name: Ethernet2/2
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/3
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/4
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/5
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/6
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/7
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/8
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/9
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/10
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/11
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/12
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/13
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/14
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/15
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/16
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/17
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/18
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/19
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/20
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/21
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/22
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/23
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/24
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/25
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/26
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/27
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/28
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/29
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/30
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/31
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/32
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/33
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/34
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/35
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/36
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/37
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/38
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/39
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/40
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/41
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/42
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/43
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/44
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/45
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/46
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/47
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/48
+        speed: '1000'
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/1
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/2
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/3
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/4
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/5
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/6
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/7
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/8
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/9
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/10
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/11
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/12
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/13
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/14
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/15
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/16
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/17
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/18
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/19
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/20
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/21
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/22
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/23
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/24
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/25
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/26
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/27
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/28
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/29
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/30
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/31
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/32
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/33
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/34
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/35
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/36
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/37
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/38
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/39
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/40
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/41
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/42
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/43
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/44
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/45
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/46
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/47
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/48
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/1
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/2
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/3
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/4
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/5
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/6
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/7
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/8
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/9
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/10
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/11
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/12
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/13
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/14
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/15
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/16
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/17
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/18
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/19
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/20
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/21
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/22
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/23
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/24
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/25
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/26
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/27
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/28
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/29
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/30
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/31
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/32
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/33
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/34
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/35
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/36
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/37
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/38
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/39
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/40
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/41
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/42
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/43
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/44
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/45
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/46
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/47
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/48
+    l2_interfaces:
+    -   access:
+            vlan: 10
+        name: Ethernet2/1
+    l3_interfaces:
+    -   ipv4:
+        -   address: 172.16.1.106/24
+        name: mgmt0
+    telemetry: {}
+    vlans:
+    -   enabled: true
+        mode: ce
+        name: default
+        state: active
+        vlan_id: 1
+    -   enabled: true
+        mode: ce
+        name: ten
+        state: active
+        vlan_id: 10
