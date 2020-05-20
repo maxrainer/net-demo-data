@@ -1,12 +1,12 @@
 intfs:
     Ethernet2/1:
         bandwidth: 1000000
-        duplex: auto
+        duplex: full
         macaddress: 0000.0000.002f
         mode: routed
         mtu: '1500'
-        speed: auto-speed
-        state: down
+        speed: 1000 Mb/s
+        state: up
         type: Ethernet
     Ethernet2/10:
         bandwidth: 1000000
