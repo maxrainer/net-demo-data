@@ -7,6 +7,7 @@ intfs:
     -   enabled: true
         name: GigabitEthernet0/2
     -   enabled: false
+        mtu: 1300
         name: GigabitEthernet0/3
     -   description: test
         enabled: true
