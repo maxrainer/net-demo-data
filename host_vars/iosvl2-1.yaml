@@ -5,9 +5,11 @@ intfs:
     -   description: trunk uplink to nexus
         enabled: true
         name: GigabitEthernet0/1
-    -   enabled: true
+    -   description: link to iosv1
+        enabled: true
         name: GigabitEthernet0/2
-    -   enabled: true
+    -   description: link to iosv2
+        enabled: true
         name: GigabitEthernet0/3
     -   description: test
         enabled: true
@@ -15,8 +17,14 @@ intfs:
     l2_interfaces:
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
-    -   name: GigabitEthernet0/2
-    -   name: GigabitEthernet0/3
+        trunk:
+            encapsulation: dot1q
+    -   access:
+            vlan: 10
+        name: GigabitEthernet0/2
+    -   access:
+            vlan: 10
+        name: GigabitEthernet0/3
     l3_interfaces:
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
