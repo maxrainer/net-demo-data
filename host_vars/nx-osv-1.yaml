@@ -504,11 +504,6 @@ intfs:
     vlans:
     -   enabled: true
         mode: ce
-        name: default
-        state: active
-        vlan_id: 1
-    -   enabled: true
-        mode: ce
         name: ten
         state: active
         vlan_id: 10
