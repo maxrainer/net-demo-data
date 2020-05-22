@@ -8,7 +8,7 @@ intfs:
     -   description: link to iosv1
         enabled: true
         name: GigabitEthernet0/2
-    -   description: link to iosv2
+    -   description: NEW link to iosv2
         enabled: true
         name: GigabitEthernet0/3
     -   description: test
