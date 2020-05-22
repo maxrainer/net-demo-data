@@ -493,6 +493,9 @@ intfs:
     -   access:
             vlan: 10
         name: Ethernet2/2
+    -   name: Ethernet2/3
+        trunk:
+            allowed_vlans: 10-11
     l3_interfaces:
     -   ipv4:
         -   address: 172.16.1.106/24
