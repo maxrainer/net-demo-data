@@ -2,21 +2,19 @@ intfs:
     interfaces:
     -   enabled: true
         name: GigabitEthernet0/0
-    -   enabled: true
+    -   description: trunk uplink to nexus
+        enabled: true
         name: GigabitEthernet0/1
     -   enabled: true
         name: GigabitEthernet0/2
-    -   enabled: false
-        mtu: 1300
+    -   enabled: true
         name: GigabitEthernet0/3
     -   description: test
         enabled: true
         name: Vlan1
     l2_interfaces:
     -   name: GigabitEthernet0/0
-    -   access:
-            vlan: 10
-        name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/1
     -   name: GigabitEthernet0/2
     -   name: GigabitEthernet0/3
     l3_interfaces:
@@ -52,6 +50,11 @@ intfs:
         shutdown: disabled
         state: active
         vlan_id: 10
+    -   mtu: 1500
+        name: 11byAnsible
+        shutdown: disabled
+        state: active
+        vlan_id: 11
     -   mtu: 1500
         name: fddi-default
         shutdown: enabled

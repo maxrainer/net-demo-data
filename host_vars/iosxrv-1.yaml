@@ -1,7 +1,7 @@
 intfs:
     interfaces:
     -   description: first interface
-        enabled: false
+        enabled: true
         name: GigabitEthernet0/0/0/0
         speed: 1000
     l2_interfaces:

@@ -2,19 +2,23 @@ intfs:
     default_interfaces:
     - mgmt0
     interfaces:
-    -   description: first real interface
+    -   description: link to iosxr
         duplex: full
+        enabled: true
         mode: layer2
         name: Ethernet2/1
         speed: '1000'
-    -   mode: layer2
+    -   description: link to csr1000v
+        enabled: true
+        mode: layer2
         name: Ethernet2/2
         speed: '1000'
-    -   enabled: false
-        mode: layer3
+    -   description: uplink to iosv-l2
+        enabled: true
+        mode: layer2
         name: Ethernet2/3
         speed: '1000'
-    -   enabled: false
+    -   enabled: true
         mode: layer3
         name: Ethernet2/4
         speed: '1000'
@@ -482,14 +486,13 @@ intfs:
     -   enabled: true
         mode: layer2
         name: Ethernet4/48
-    l2_interfaces:
-    -   access:
-            vlan: 10
-        name: Ethernet2/1
     l3_interfaces:
     -   ipv4:
         -   address: 172.16.1.106/24
         name: mgmt0
+    -   ipv4:
+        -   address: 10.10.100.105/24
+        name: Ethernet2/4
     telemetry: {}
     vlans:
     -   enabled: true
@@ -502,3 +505,8 @@ intfs:
         name: ten
         state: active
         vlan_id: 10
+    -   enabled: true
+        mode: ce
+        name: eleven
+        state: active
+        vlan_id: 11

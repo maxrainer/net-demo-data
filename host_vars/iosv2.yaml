@@ -7,7 +7,7 @@ intfs:
         name: GigabitEthernet0/0
         speed: '1000'
     -   duplex: auto
-        enabled: false
+        enabled: true
         name: GigabitEthernet0/1
         speed: '1000'
     l3_interfaces:
@@ -17,4 +17,6 @@ intfs:
     -   ipv4:
         -   address: 172.16.1.102 255.255.255.0
         name: GigabitEthernet0/0
-    -   name: GigabitEthernet0/1
+    -   ipv4:
+        -   address: 10.10.100.102 255.255.255.0
+        name: GigabitEthernet0/1
