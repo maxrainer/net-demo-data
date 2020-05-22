@@ -18,7 +18,8 @@ intfs:
         mode: layer2
         name: Ethernet2/3
         speed: '1000'
-    -   enabled: true
+    -   description: changed 2/4
+        enabled: true
         mode: layer3
         name: Ethernet2/4
         speed: '1000'
