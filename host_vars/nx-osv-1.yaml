@@ -13,7 +13,7 @@ intfs:
         mode: layer2
         name: Ethernet2/2
         speed: '1000'
-    -   description: uplink to iosv-l2
+    -   description: NEW to iosv-l2
         enabled: true
         mode: layer2
         name: Ethernet2/3
