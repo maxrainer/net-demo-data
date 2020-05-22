@@ -497,11 +497,13 @@ intfs:
     -   ipv4:
         -   address: 172.16.1.106/24
         name: mgmt0
-    -   ipv4:
-        -   address: 10.10.100.105/24
-        name: Ethernet2/4
     telemetry: {}
     vlans:
+    -   enabled: true
+        mode: ce
+        name: default
+        state: active
+        vlan_id: 1
     -   enabled: true
         mode: ce
         name: ten
