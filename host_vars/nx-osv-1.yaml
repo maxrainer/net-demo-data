@@ -501,7 +501,7 @@ intfs:
     -   ipv4:
         -   address: 172.16.1.106/24
         name: mgmt0
-    -   ipv4: 
+    -   ipv4:
         -   address: 10.99.99.106/24
         name: Ethernet2/4
     telemetry: {}
