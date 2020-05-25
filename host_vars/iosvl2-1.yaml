@@ -23,7 +23,7 @@ intfs:
             vlan: 10
         name: GigabitEthernet0/2
     -   access:
-            vlan: 20
+            vlan: 10
         name: GigabitEthernet0/3
     l3_interfaces:
     -   name: GigabitEthernet0/0
@@ -63,11 +63,6 @@ intfs:
         shutdown: disabled
         state: active
         vlan_id: 11
-    -   mtu: 1500
-        name: 11byAnsible
-        shutdown: disabled
-        state: active
-        vlan_id: 20
     -   mtu: 1500
         name: fddi-default
         shutdown: enabled
