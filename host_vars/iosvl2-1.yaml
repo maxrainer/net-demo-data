@@ -5,7 +5,9 @@ intfs:
     -   description: trunk uplink to nexus
         enabled: true
         name: GigabitEthernet0/1
-    -   name: GigabitEthernet0/2
+    -   description: link to iosv1
+        enabled: true
+        name: GigabitEthernet0/2
     -   description: NEW link to iosv2
         enabled: true
         name: GigabitEthernet0/3
@@ -61,6 +63,11 @@ intfs:
         shutdown: disabled
         state: active
         vlan_id: 11
+    -   mtu: 1500
+        name: VLAN0020
+        shutdown: disabled
+        state: active
+        vlan_id: 20
     -   mtu: 1500
         name: fddi-default
         shutdown: enabled
