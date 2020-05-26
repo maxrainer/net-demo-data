@@ -5,6 +5,9 @@ intfs:
     -   description: trunk uplink to nexus
         enabled: true
         name: GigabitEthernet0/1
+    -   description: link to iosv1
+        enabled: true
+        name: GigabitEthernet0/2
     -   description: NEW link to iosv2
         enabled: true
         name: GigabitEthernet0/3
