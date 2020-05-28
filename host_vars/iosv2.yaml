@@ -19,5 +19,5 @@ intfs:
         -   address: 172.16.1.102 255.255.255.0
         name: GigabitEthernet0/0
     -   ipv4:
-        -   address: 10.10.100.102 255.255.255.0
+        -   address: 10.10.99.102 255.255.255.0
         name: GigabitEthernet0/1
