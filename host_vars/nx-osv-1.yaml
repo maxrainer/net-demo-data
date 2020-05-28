@@ -8,8 +8,7 @@ intfs:
         mode: layer2
         name: Ethernet2/1
         speed: '1000'
-    -   description: link to csr1000v
-        enabled: true
+    -   enabled: true
         mode: layer2
         name: Ethernet2/2
         speed: '1000'
@@ -491,9 +490,6 @@ intfs:
     -   access:
             vlan: 10
         name: Ethernet2/1
-    -   access:
-            vlan: 10
-        name: Ethernet2/2
     -   name: Ethernet2/3
         trunk:
             allowed_vlans: 10-11
