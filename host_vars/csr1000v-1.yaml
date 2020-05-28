@@ -8,4 +8,6 @@ intfs:
     -   ipv4:
         -   address: 172.16.1.103 255.255.255.0
         name: GigabitEthernet1
-    -   name: GigabitEthernet2
+    -   ipv4:
+        -   address: 10.10.100.103 255.255.255.0
+        name: GigabitEthernet2
