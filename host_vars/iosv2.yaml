@@ -6,7 +6,7 @@ intfs:
         enabled: true
         name: GigabitEthernet0/0
         speed: '1000'
-    -   description: wrong ip link to iosl2-1
+    -   description: link to iosl2-1
         duplex: auto
         enabled: true
         name: GigabitEthernet0/1
@@ -19,5 +19,5 @@ intfs:
         -   address: 172.16.1.102 255.255.255.0
         name: GigabitEthernet0/0
     -   ipv4:
-        -   address: 10.10.99.102 255.255.255.0
+        -   address: 10.10.100.102 255.255.255.0
         name: GigabitEthernet0/1
