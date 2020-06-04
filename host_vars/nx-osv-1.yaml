@@ -521,3 +521,8 @@ intfs:
         name: eleven
         state: active
         vlan_id: 11
+    -   enabled: true
+        mode: ce
+        name: twelve
+        state: active
+        vlan_id: 12
