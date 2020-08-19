@@ -1,4 +1,4 @@
-intfs:
+network_resources:
     acl_interfaces:
     -   name: mgmt0
     -   name: Ethernet2/1

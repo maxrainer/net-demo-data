@@ -1,4 +1,4 @@
-intfs:
+network_resources:
     acl_interfaces:
     -   name: MgmtEth0/0/CPU0/0
     acls: []

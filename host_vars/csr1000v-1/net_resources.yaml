@@ -1,4 +1,4 @@
-intfs:
+network_resources:
     acl_interfaces:
     -   name: GigabitEthernet1
     -   name: GigabitEthernet2

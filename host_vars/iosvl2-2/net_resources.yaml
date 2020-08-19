@@ -1,4 +1,4 @@
-intfs:
+network_resources:
     interfaces:
     -   enabled: true
         name: GigabitEthernet0/0
