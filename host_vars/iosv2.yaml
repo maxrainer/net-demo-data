@@ -1,4 +1,9 @@
 intfs:
+    acl_interfaces:
+    -   name: Loopback0
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
     interfaces:
     -   enabled: true
         name: loopback0
@@ -14,6 +19,10 @@ intfs:
         enabled: false
         name: GigabitEthernet0/2
         speed: auto
+    l2_interfaces:
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
     l3_interfaces:
     -   ipv4:
         -   address: 10.255.255.2 255.255.255.255
@@ -23,3 +32,16 @@ intfs:
         name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
     -   name: GigabitEthernet0/2
+    lag_interfaces:
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    static_routes:
+    -   address_families:
+        -   afi: ipv4
+            routes:
+            -   dest: 0.0.0.0/32
+                next_hops:
+                -   forward_router_address: 172.16.1.1
+        vrf: mgmt
+    - {}

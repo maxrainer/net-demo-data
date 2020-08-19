@@ -1,19 +1,16 @@
 intfs:
-    interfaces:
-    -   description: first interface
-        enabled: true
-        name: GigabitEthernet0/0/0/0
-        speed: 1000
-    l2_interfaces:
-    -   name: GigabitEthernet0/0/0/0
-    l3_interfaces:
-    -   ipv4:
-        -   address: 10.10.100.104 255.255.255.0
-        name: GigabitEthernet0/0/0/0
+    acl_interfaces:
+    -   name: MgmtEth0/0/CPU0/0
+    acls: []
     lacp: {}
-    lacp_interfaces:
-    -   name: GigabitEthernet0/0/0/0
     lag_interfaces: []
     lldp_global: {}
-    lldp_interfaces:
-    -   name: GigabitEthernet0/0/0/0
+    static_routes:
+    -   address_families:
+        -   afi: ipv4
+            routes:
+            -   dest: 0.0.0.0/0
+                next_hops:
+                -   forward_router_address: 172.16.1.1
+            safi: unicast
+        vrf: mgmt
