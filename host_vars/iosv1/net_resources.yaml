@@ -15,7 +15,7 @@ network_resources:
         name: GigabitEthernet0/0
         speed: auto
     -   duplex: auto
-        enabled: false
+        enabled: true
         name: GigabitEthernet0/1
         speed: auto
     l2_interfaces:
@@ -31,7 +31,9 @@ network_resources:
     -   ipv4:
         -   address: 172.16.1.101 255.255.255.0
         name: GigabitEthernet0/0
-    -   name: GigabitEthernet0/1
+    -   ipv4:
+        -   address: 10.10.100.101 255.255.255.0
+        name: GigabitEthernet0/1
     lag_interfaces:
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1

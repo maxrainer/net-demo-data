@@ -1,10 +1,24 @@
 network_resources:
     acl_interfaces:
+    -   name: GigabitEthernet0/0/0/0
     -   name: MgmtEth0/0/CPU0/0
     acls: []
+    interfaces:
+    -   enabled: true
+        name: GigabitEthernet0/0/0/0
+    l2_interfaces:
+    -   name: GigabitEthernet0/0/0/0
+    l3_interfaces:
+    -   ipv4:
+        -   address: 10.10.100.104 255.255.255.0
+        name: GigabitEthernet0/0/0/0
     lacp: {}
+    lacp_interfaces:
+    -   name: GigabitEthernet0/0/0/0
     lag_interfaces: []
     lldp_global: {}
+    lldp_interfaces:
+    -   name: GigabitEthernet0/0/0/0
     static_routes:
     -   address_families:
         -   afi: ipv4

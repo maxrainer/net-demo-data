@@ -147,14 +147,14 @@ network_resources:
     -   name: Ethernet4/48
     interfaces:
     -   name: mgmt0
-    -   enabled: false
-        mode: layer3
+    -   enabled: true
+        mode: layer2
         name: Ethernet2/1
-    -   enabled: false
-        mode: layer3
+    -   enabled: true
+        mode: layer2
         name: Ethernet2/2
-    -   enabled: false
-        mode: layer3
+    -   enabled: true
+        mode: layer2
         name: Ethernet2/3
     -   enabled: false
         mode: layer3
