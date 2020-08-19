@@ -1,0 +1,1038 @@
+intfs:
+    acl_interfaces:
+    -   name: mgmt0
+    -   name: Ethernet2/1
+    -   name: Ethernet2/2
+    -   name: Ethernet2/3
+    -   name: Ethernet2/4
+    -   name: Ethernet2/5
+    -   name: Ethernet2/6
+    -   name: Ethernet2/7
+    -   name: Ethernet2/8
+    -   name: Ethernet2/9
+    -   name: Ethernet2/10
+    -   name: Ethernet2/11
+    -   name: Ethernet2/12
+    -   name: Ethernet2/13
+    -   name: Ethernet2/14
+    -   name: Ethernet2/15
+    -   name: Ethernet2/16
+    -   name: Ethernet2/17
+    -   name: Ethernet2/18
+    -   name: Ethernet2/19
+    -   name: Ethernet2/20
+    -   name: Ethernet2/21
+    -   name: Ethernet2/22
+    -   name: Ethernet2/23
+    -   name: Ethernet2/24
+    -   name: Ethernet2/25
+    -   name: Ethernet2/26
+    -   name: Ethernet2/27
+    -   name: Ethernet2/28
+    -   name: Ethernet2/29
+    -   name: Ethernet2/30
+    -   name: Ethernet2/31
+    -   name: Ethernet2/32
+    -   name: Ethernet2/33
+    -   name: Ethernet2/34
+    -   name: Ethernet2/35
+    -   name: Ethernet2/36
+    -   name: Ethernet2/37
+    -   name: Ethernet2/38
+    -   name: Ethernet2/39
+    -   name: Ethernet2/40
+    -   name: Ethernet2/41
+    -   name: Ethernet2/42
+    -   name: Ethernet2/43
+    -   name: Ethernet2/44
+    -   name: Ethernet2/45
+    -   name: Ethernet2/46
+    -   name: Ethernet2/47
+    -   name: Ethernet2/48
+    -   name: Ethernet3/1
+    -   name: Ethernet3/2
+    -   name: Ethernet3/3
+    -   name: Ethernet3/4
+    -   name: Ethernet3/5
+    -   name: Ethernet3/6
+    -   name: Ethernet3/7
+    -   name: Ethernet3/8
+    -   name: Ethernet3/9
+    -   name: Ethernet3/10
+    -   name: Ethernet3/11
+    -   name: Ethernet3/12
+    -   name: Ethernet3/13
+    -   name: Ethernet3/14
+    -   name: Ethernet3/15
+    -   name: Ethernet3/16
+    -   name: Ethernet3/17
+    -   name: Ethernet3/18
+    -   name: Ethernet3/19
+    -   name: Ethernet3/20
+    -   name: Ethernet3/21
+    -   name: Ethernet3/22
+    -   name: Ethernet3/23
+    -   name: Ethernet3/24
+    -   name: Ethernet3/25
+    -   name: Ethernet3/26
+    -   name: Ethernet3/27
+    -   name: Ethernet3/28
+    -   name: Ethernet3/29
+    -   name: Ethernet3/30
+    -   name: Ethernet3/31
+    -   name: Ethernet3/32
+    -   name: Ethernet3/33
+    -   name: Ethernet3/34
+    -   name: Ethernet3/35
+    -   name: Ethernet3/36
+    -   name: Ethernet3/37
+    -   name: Ethernet3/38
+    -   name: Ethernet3/39
+    -   name: Ethernet3/40
+    -   name: Ethernet3/41
+    -   name: Ethernet3/42
+    -   name: Ethernet3/43
+    -   name: Ethernet3/44
+    -   name: Ethernet3/45
+    -   name: Ethernet3/46
+    -   name: Ethernet3/47
+    -   name: Ethernet3/48
+    -   name: Ethernet4/1
+    -   name: Ethernet4/2
+    -   name: Ethernet4/3
+    -   name: Ethernet4/4
+    -   name: Ethernet4/5
+    -   name: Ethernet4/6
+    -   name: Ethernet4/7
+    -   name: Ethernet4/8
+    -   name: Ethernet4/9
+    -   name: Ethernet4/10
+    -   name: Ethernet4/11
+    -   name: Ethernet4/12
+    -   name: Ethernet4/13
+    -   name: Ethernet4/14
+    -   name: Ethernet4/15
+    -   name: Ethernet4/16
+    -   name: Ethernet4/17
+    -   name: Ethernet4/18
+    -   name: Ethernet4/19
+    -   name: Ethernet4/20
+    -   name: Ethernet4/21
+    -   name: Ethernet4/22
+    -   name: Ethernet4/23
+    -   name: Ethernet4/24
+    -   name: Ethernet4/25
+    -   name: Ethernet4/26
+    -   name: Ethernet4/27
+    -   name: Ethernet4/28
+    -   name: Ethernet4/29
+    -   name: Ethernet4/30
+    -   name: Ethernet4/31
+    -   name: Ethernet4/32
+    -   name: Ethernet4/33
+    -   name: Ethernet4/34
+    -   name: Ethernet4/35
+    -   name: Ethernet4/36
+    -   name: Ethernet4/37
+    -   name: Ethernet4/38
+    -   name: Ethernet4/39
+    -   name: Ethernet4/40
+    -   name: Ethernet4/41
+    -   name: Ethernet4/42
+    -   name: Ethernet4/43
+    -   name: Ethernet4/44
+    -   name: Ethernet4/45
+    -   name: Ethernet4/46
+    -   name: Ethernet4/47
+    -   name: Ethernet4/48
+    interfaces:
+    -   name: mgmt0
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/1
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/2
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/3
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/4
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/5
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/6
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/7
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/8
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/9
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/10
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/11
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/12
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/13
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/14
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/15
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/16
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/17
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/18
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/19
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/20
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/21
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/22
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/23
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/24
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/25
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/26
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/27
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/28
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/29
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/30
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/31
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/32
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/33
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/34
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/35
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/36
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/37
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/38
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/39
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/40
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/41
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/42
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/43
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/44
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/45
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/46
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/47
+    -   enabled: false
+        mode: layer3
+        name: Ethernet2/48
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/1
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/2
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/3
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/4
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/5
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/6
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/7
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/8
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/9
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/10
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/11
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/12
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/13
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/14
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/15
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/16
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/17
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/18
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/19
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/20
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/21
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/22
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/23
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/24
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/25
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/26
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/27
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/28
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/29
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/30
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/31
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/32
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/33
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/34
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/35
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/36
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/37
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/38
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/39
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/40
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/41
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/42
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/43
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/44
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/45
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/46
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/47
+    -   enabled: false
+        mode: layer3
+        name: Ethernet3/48
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/1
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/2
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/3
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/4
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/5
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/6
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/7
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/8
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/9
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/10
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/11
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/12
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/13
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/14
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/15
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/16
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/17
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/18
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/19
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/20
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/21
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/22
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/23
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/24
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/25
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/26
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/27
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/28
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/29
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/30
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/31
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/32
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/33
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/34
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/35
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/36
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/37
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/38
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/39
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/40
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/41
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/42
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/43
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/44
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/45
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/46
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/47
+    -   enabled: true
+        mode: layer2
+        name: Ethernet4/48
+    l2_interfaces:
+    -   name: mgmt0
+    -   name: Ethernet2/1
+    -   name: Ethernet2/2
+    -   name: Ethernet2/3
+    -   name: Ethernet2/4
+    -   name: Ethernet2/5
+    -   name: Ethernet2/6
+    -   name: Ethernet2/7
+    -   name: Ethernet2/8
+    -   name: Ethernet2/9
+    -   name: Ethernet2/10
+    -   name: Ethernet2/11
+    -   name: Ethernet2/12
+    -   name: Ethernet2/13
+    -   name: Ethernet2/14
+    -   name: Ethernet2/15
+    -   name: Ethernet2/16
+    -   name: Ethernet2/17
+    -   name: Ethernet2/18
+    -   name: Ethernet2/19
+    -   name: Ethernet2/20
+    -   name: Ethernet2/21
+    -   name: Ethernet2/22
+    -   name: Ethernet2/23
+    -   name: Ethernet2/24
+    -   name: Ethernet2/25
+    -   name: Ethernet2/26
+    -   name: Ethernet2/27
+    -   name: Ethernet2/28
+    -   name: Ethernet2/29
+    -   name: Ethernet2/30
+    -   name: Ethernet2/31
+    -   name: Ethernet2/32
+    -   name: Ethernet2/33
+    -   name: Ethernet2/34
+    -   name: Ethernet2/35
+    -   name: Ethernet2/36
+    -   name: Ethernet2/37
+    -   name: Ethernet2/38
+    -   name: Ethernet2/39
+    -   name: Ethernet2/40
+    -   name: Ethernet2/41
+    -   name: Ethernet2/42
+    -   name: Ethernet2/43
+    -   name: Ethernet2/44
+    -   name: Ethernet2/45
+    -   name: Ethernet2/46
+    -   name: Ethernet2/47
+    -   name: Ethernet2/48
+    -   name: Ethernet3/1
+    -   name: Ethernet3/2
+    -   name: Ethernet3/3
+    -   name: Ethernet3/4
+    -   name: Ethernet3/5
+    -   name: Ethernet3/6
+    -   name: Ethernet3/7
+    -   name: Ethernet3/8
+    -   name: Ethernet3/9
+    -   name: Ethernet3/10
+    -   name: Ethernet3/11
+    -   name: Ethernet3/12
+    -   name: Ethernet3/13
+    -   name: Ethernet3/14
+    -   name: Ethernet3/15
+    -   name: Ethernet3/16
+    -   name: Ethernet3/17
+    -   name: Ethernet3/18
+    -   name: Ethernet3/19
+    -   name: Ethernet3/20
+    -   name: Ethernet3/21
+    -   name: Ethernet3/22
+    -   name: Ethernet3/23
+    -   name: Ethernet3/24
+    -   name: Ethernet3/25
+    -   name: Ethernet3/26
+    -   name: Ethernet3/27
+    -   name: Ethernet3/28
+    -   name: Ethernet3/29
+    -   name: Ethernet3/30
+    -   name: Ethernet3/31
+    -   name: Ethernet3/32
+    -   name: Ethernet3/33
+    -   name: Ethernet3/34
+    -   name: Ethernet3/35
+    -   name: Ethernet3/36
+    -   name: Ethernet3/37
+    -   name: Ethernet3/38
+    -   name: Ethernet3/39
+    -   name: Ethernet3/40
+    -   name: Ethernet3/41
+    -   name: Ethernet3/42
+    -   name: Ethernet3/43
+    -   name: Ethernet3/44
+    -   name: Ethernet3/45
+    -   name: Ethernet3/46
+    -   name: Ethernet3/47
+    -   name: Ethernet3/48
+    -   name: Ethernet4/1
+    -   name: Ethernet4/2
+    -   name: Ethernet4/3
+    -   name: Ethernet4/4
+    -   name: Ethernet4/5
+    -   name: Ethernet4/6
+    -   name: Ethernet4/7
+    -   name: Ethernet4/8
+    -   name: Ethernet4/9
+    -   name: Ethernet4/10
+    -   name: Ethernet4/11
+    -   name: Ethernet4/12
+    -   name: Ethernet4/13
+    -   name: Ethernet4/14
+    -   name: Ethernet4/15
+    -   name: Ethernet4/16
+    -   name: Ethernet4/17
+    -   name: Ethernet4/18
+    -   name: Ethernet4/19
+    -   name: Ethernet4/20
+    -   name: Ethernet4/21
+    -   name: Ethernet4/22
+    -   name: Ethernet4/23
+    -   name: Ethernet4/24
+    -   name: Ethernet4/25
+    -   name: Ethernet4/26
+    -   name: Ethernet4/27
+    -   name: Ethernet4/28
+    -   name: Ethernet4/29
+    -   name: Ethernet4/30
+    -   name: Ethernet4/31
+    -   name: Ethernet4/32
+    -   name: Ethernet4/33
+    -   name: Ethernet4/34
+    -   name: Ethernet4/35
+    -   name: Ethernet4/36
+    -   name: Ethernet4/37
+    -   name: Ethernet4/38
+    -   name: Ethernet4/39
+    -   name: Ethernet4/40
+    -   name: Ethernet4/41
+    -   name: Ethernet4/42
+    -   name: Ethernet4/43
+    -   name: Ethernet4/44
+    -   name: Ethernet4/45
+    -   name: Ethernet4/46
+    -   name: Ethernet4/47
+    -   name: Ethernet4/48
+    l3_interfaces:
+    -   ipv4:
+        -   address: 172.16.1.106/24
+        name: mgmt0
+    -   name: Ethernet2/1
+    -   name: Ethernet2/2
+    -   name: Ethernet2/3
+    -   name: Ethernet2/4
+    -   name: Ethernet2/5
+    -   name: Ethernet2/6
+    -   name: Ethernet2/7
+    -   name: Ethernet2/8
+    -   name: Ethernet2/9
+    -   name: Ethernet2/10
+    -   name: Ethernet2/11
+    -   name: Ethernet2/12
+    -   name: Ethernet2/13
+    -   name: Ethernet2/14
+    -   name: Ethernet2/15
+    -   name: Ethernet2/16
+    -   name: Ethernet2/17
+    -   name: Ethernet2/18
+    -   name: Ethernet2/19
+    -   name: Ethernet2/20
+    -   name: Ethernet2/21
+    -   name: Ethernet2/22
+    -   name: Ethernet2/23
+    -   name: Ethernet2/24
+    -   name: Ethernet2/25
+    -   name: Ethernet2/26
+    -   name: Ethernet2/27
+    -   name: Ethernet2/28
+    -   name: Ethernet2/29
+    -   name: Ethernet2/30
+    -   name: Ethernet2/31
+    -   name: Ethernet2/32
+    -   name: Ethernet2/33
+    -   name: Ethernet2/34
+    -   name: Ethernet2/35
+    -   name: Ethernet2/36
+    -   name: Ethernet2/37
+    -   name: Ethernet2/38
+    -   name: Ethernet2/39
+    -   name: Ethernet2/40
+    -   name: Ethernet2/41
+    -   name: Ethernet2/42
+    -   name: Ethernet2/43
+    -   name: Ethernet2/44
+    -   name: Ethernet2/45
+    -   name: Ethernet2/46
+    -   name: Ethernet2/47
+    -   name: Ethernet2/48
+    -   name: Ethernet3/1
+    -   name: Ethernet3/2
+    -   name: Ethernet3/3
+    -   name: Ethernet3/4
+    -   name: Ethernet3/5
+    -   name: Ethernet3/6
+    -   name: Ethernet3/7
+    -   name: Ethernet3/8
+    -   name: Ethernet3/9
+    -   name: Ethernet3/10
+    -   name: Ethernet3/11
+    -   name: Ethernet3/12
+    -   name: Ethernet3/13
+    -   name: Ethernet3/14
+    -   name: Ethernet3/15
+    -   name: Ethernet3/16
+    -   name: Ethernet3/17
+    -   name: Ethernet3/18
+    -   name: Ethernet3/19
+    -   name: Ethernet3/20
+    -   name: Ethernet3/21
+    -   name: Ethernet3/22
+    -   name: Ethernet3/23
+    -   name: Ethernet3/24
+    -   name: Ethernet3/25
+    -   name: Ethernet3/26
+    -   name: Ethernet3/27
+    -   name: Ethernet3/28
+    -   name: Ethernet3/29
+    -   name: Ethernet3/30
+    -   name: Ethernet3/31
+    -   name: Ethernet3/32
+    -   name: Ethernet3/33
+    -   name: Ethernet3/34
+    -   name: Ethernet3/35
+    -   name: Ethernet3/36
+    -   name: Ethernet3/37
+    -   name: Ethernet3/38
+    -   name: Ethernet3/39
+    -   name: Ethernet3/40
+    -   name: Ethernet3/41
+    -   name: Ethernet3/42
+    -   name: Ethernet3/43
+    -   name: Ethernet3/44
+    -   name: Ethernet3/45
+    -   name: Ethernet3/46
+    -   name: Ethernet3/47
+    -   name: Ethernet3/48
+    -   name: Ethernet4/1
+    -   name: Ethernet4/2
+    -   name: Ethernet4/3
+    -   name: Ethernet4/4
+    -   name: Ethernet4/5
+    -   name: Ethernet4/6
+    -   name: Ethernet4/7
+    -   name: Ethernet4/8
+    -   name: Ethernet4/9
+    -   name: Ethernet4/10
+    -   name: Ethernet4/11
+    -   name: Ethernet4/12
+    -   name: Ethernet4/13
+    -   name: Ethernet4/14
+    -   name: Ethernet4/15
+    -   name: Ethernet4/16
+    -   name: Ethernet4/17
+    -   name: Ethernet4/18
+    -   name: Ethernet4/19
+    -   name: Ethernet4/20
+    -   name: Ethernet4/21
+    -   name: Ethernet4/22
+    -   name: Ethernet4/23
+    -   name: Ethernet4/24
+    -   name: Ethernet4/25
+    -   name: Ethernet4/26
+    -   name: Ethernet4/27
+    -   name: Ethernet4/28
+    -   name: Ethernet4/29
+    -   name: Ethernet4/30
+    -   name: Ethernet4/31
+    -   name: Ethernet4/32
+    -   name: Ethernet4/33
+    -   name: Ethernet4/34
+    -   name: Ethernet4/35
+    -   name: Ethernet4/36
+    -   name: Ethernet4/37
+    -   name: Ethernet4/38
+    -   name: Ethernet4/39
+    -   name: Ethernet4/40
+    -   name: Ethernet4/41
+    -   name: Ethernet4/42
+    -   name: Ethernet4/43
+    -   name: Ethernet4/44
+    -   name: Ethernet4/45
+    -   name: Ethernet4/46
+    -   name: Ethernet4/47
+    -   name: Ethernet4/48
+    lldp_interfaces:
+    -   name: mgmt0
+    -   name: Ethernet2/1
+    -   name: Ethernet2/2
+    -   name: Ethernet2/3
+    -   name: Ethernet2/4
+    -   name: Ethernet2/5
+    -   name: Ethernet2/6
+    -   name: Ethernet2/7
+    -   name: Ethernet2/8
+    -   name: Ethernet2/9
+    -   name: Ethernet2/10
+    -   name: Ethernet2/11
+    -   name: Ethernet2/12
+    -   name: Ethernet2/13
+    -   name: Ethernet2/14
+    -   name: Ethernet2/15
+    -   name: Ethernet2/16
+    -   name: Ethernet2/17
+    -   name: Ethernet2/18
+    -   name: Ethernet2/19
+    -   name: Ethernet2/20
+    -   name: Ethernet2/21
+    -   name: Ethernet2/22
+    -   name: Ethernet2/23
+    -   name: Ethernet2/24
+    -   name: Ethernet2/25
+    -   name: Ethernet2/26
+    -   name: Ethernet2/27
+    -   name: Ethernet2/28
+    -   name: Ethernet2/29
+    -   name: Ethernet2/30
+    -   name: Ethernet2/31
+    -   name: Ethernet2/32
+    -   name: Ethernet2/33
+    -   name: Ethernet2/34
+    -   name: Ethernet2/35
+    -   name: Ethernet2/36
+    -   name: Ethernet2/37
+    -   name: Ethernet2/38
+    -   name: Ethernet2/39
+    -   name: Ethernet2/40
+    -   name: Ethernet2/41
+    -   name: Ethernet2/42
+    -   name: Ethernet2/43
+    -   name: Ethernet2/44
+    -   name: Ethernet2/45
+    -   name: Ethernet2/46
+    -   name: Ethernet2/47
+    -   name: Ethernet2/48
+    -   name: Ethernet3/1
+    -   name: Ethernet3/2
+    -   name: Ethernet3/3
+    -   name: Ethernet3/4
+    -   name: Ethernet3/5
+    -   name: Ethernet3/6
+    -   name: Ethernet3/7
+    -   name: Ethernet3/8
+    -   name: Ethernet3/9
+    -   name: Ethernet3/10
+    -   name: Ethernet3/11
+    -   name: Ethernet3/12
+    -   name: Ethernet3/13
+    -   name: Ethernet3/14
+    -   name: Ethernet3/15
+    -   name: Ethernet3/16
+    -   name: Ethernet3/17
+    -   name: Ethernet3/18
+    -   name: Ethernet3/19
+    -   name: Ethernet3/20
+    -   name: Ethernet3/21
+    -   name: Ethernet3/22
+    -   name: Ethernet3/23
+    -   name: Ethernet3/24
+    -   name: Ethernet3/25
+    -   name: Ethernet3/26
+    -   name: Ethernet3/27
+    -   name: Ethernet3/28
+    -   name: Ethernet3/29
+    -   name: Ethernet3/30
+    -   name: Ethernet3/31
+    -   name: Ethernet3/32
+    -   name: Ethernet3/33
+    -   name: Ethernet3/34
+    -   name: Ethernet3/35
+    -   name: Ethernet3/36
+    -   name: Ethernet3/37
+    -   name: Ethernet3/38
+    -   name: Ethernet3/39
+    -   name: Ethernet3/40
+    -   name: Ethernet3/41
+    -   name: Ethernet3/42
+    -   name: Ethernet3/43
+    -   name: Ethernet3/44
+    -   name: Ethernet3/45
+    -   name: Ethernet3/46
+    -   name: Ethernet3/47
+    -   name: Ethernet3/48
+    -   name: Ethernet4/1
+    -   name: Ethernet4/2
+    -   name: Ethernet4/3
+    -   name: Ethernet4/4
+    -   name: Ethernet4/5
+    -   name: Ethernet4/6
+    -   name: Ethernet4/7
+    -   name: Ethernet4/8
+    -   name: Ethernet4/9
+    -   name: Ethernet4/10
+    -   name: Ethernet4/11
+    -   name: Ethernet4/12
+    -   name: Ethernet4/13
+    -   name: Ethernet4/14
+    -   name: Ethernet4/15
+    -   name: Ethernet4/16
+    -   name: Ethernet4/17
+    -   name: Ethernet4/18
+    -   name: Ethernet4/19
+    -   name: Ethernet4/20
+    -   name: Ethernet4/21
+    -   name: Ethernet4/22
+    -   name: Ethernet4/23
+    -   name: Ethernet4/24
+    -   name: Ethernet4/25
+    -   name: Ethernet4/26
+    -   name: Ethernet4/27
+    -   name: Ethernet4/28
+    -   name: Ethernet4/29
+    -   name: Ethernet4/30
+    -   name: Ethernet4/31
+    -   name: Ethernet4/32
+    -   name: Ethernet4/33
+    -   name: Ethernet4/34
+    -   name: Ethernet4/35
+    -   name: Ethernet4/36
+    -   name: Ethernet4/37
+    -   name: Ethernet4/38
+    -   name: Ethernet4/39
+    -   name: Ethernet4/40
+    -   name: Ethernet4/41
+    -   name: Ethernet4/42
+    -   name: Ethernet4/43
+    -   name: Ethernet4/44
+    -   name: Ethernet4/45
+    -   name: Ethernet4/46
+    -   name: Ethernet4/47
+    -   name: Ethernet4/48
+    ospfv2: []
+    static_routes:
+    -   address_families:
+        -   afi: ipv4
+            routes:
+            -   dest: 0.0.0.0/0
+                next_hops:
+                -   forward_router_address: 172.16.1.1
+                    interface: mgmt0
+        vrf: management
+    telemetry: {}
+    vlans:
+    -   enabled: true
+        mode: ce
+        name: default
+        state: active
+        vlan_id: 1
