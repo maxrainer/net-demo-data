@@ -5,12 +5,15 @@ intfs:
     -   duplex: auto
         enabled: true
         name: GigabitEthernet0/0
-        speed: '1000'
-    -   description: link to iosl2-1
-        duplex: auto
-        enabled: true
+        speed: auto
+    -   duplex: auto
+        enabled: false
         name: GigabitEthernet0/1
-        speed: '1000'
+        speed: auto
+    -   duplex: auto
+        enabled: false
+        name: GigabitEthernet0/2
+        speed: auto
     l3_interfaces:
     -   ipv4:
         -   address: 10.255.255.2 255.255.255.255
@@ -18,6 +21,5 @@ intfs:
     -   ipv4:
         -   address: 172.16.1.102 255.255.255.0
         name: GigabitEthernet0/0
-    -   ipv4:
-        -   address: 10.10.99.102 255.255.255.0
-        name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
