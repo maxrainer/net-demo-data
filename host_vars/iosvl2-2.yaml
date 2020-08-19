@@ -1,0 +1,72 @@
+intfs:
+    interfaces:
+    -   enabled: true
+        name: GigabitEthernet0/0
+    -   enabled: true
+        name: GigabitEthernet0/1
+    -   enabled: true
+        name: GigabitEthernet0/2
+    -   enabled: true
+        name: GigabitEthernet0/3
+    -   enabled: true
+        name: Vlan1
+    l2_interfaces:
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/3
+    l3_interfaces:
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/3
+    -   ipv4:
+        -   address: 172.16.1.107 255.255.255.0
+        name: Vlan1
+    lacp:
+        system:
+            priority: 32768
+    lacp_interfaces:
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/3
+    -   name: Vlan1
+    lag_interfaces:
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/3
+    static_routes:
+    -   address_families:
+        -   afi: ipv4
+            routes:
+            -   dest: 0.0.0.0/32
+                next_hops:
+                -   forward_router_address: 172.16.1.1
+    vlans:
+    -   mtu: 1500
+        name: default
+        shutdown: disabled
+        state: active
+        vlan_id: 1
+    -   mtu: 1500
+        name: fddi-default
+        shutdown: enabled
+        state: active
+        vlan_id: 1002
+    -   mtu: 1500
+        name: token-ring-default
+        shutdown: enabled
+        state: active
+        vlan_id: 1003
+    -   mtu: 1500
+        name: fddinet-default
+        shutdown: enabled
+        state: active
+        vlan_id: 1004
+    -   mtu: 1500
+        name: trnet-default
+        shutdown: enabled
+        state: active
+        vlan_id: 1005
