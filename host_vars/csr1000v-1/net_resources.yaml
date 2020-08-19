@@ -10,7 +10,7 @@ network_resources:
     interfaces:
     -   enabled: true
         name: GigabitEthernet1
-    -   enabled: false
+    -   enabled: true
         name: GigabitEthernet2
     -   enabled: false
         name: GigabitEthernet3
@@ -25,7 +25,9 @@ network_resources:
     -   ipv4:
         -   address: 172.16.1.103 255.255.255.0
         name: GigabitEthernet1
-    -   name: GigabitEthernet2
+    -   ipv4:
+        -   address: 10.10.100.103 255.255.255.0
+        name: GigabitEthernet2
     -   name: GigabitEthernet3
     -   name: GigabitEthernet4
     lag_interfaces:
