@@ -1,0 +1,31 @@
+all: 
+  hosts: 
+    vqfx1:
+      ansible_host: 127.0.0.1
+      ansible_ssh_port: 2200
+      ansible_ssh_private_key_file: ~/.vagrant.d/insecure_private_key
+      ansible_user: vagrant
+    ex4200:
+      ansible_host: 127.0.0.1
+    iosvl2-1:
+      ansible_host: 172.16.1.105
+    iosvl2-2:
+      ansible_host: 172.16.1.106
+  children:
+    ios:
+      hosts:
+        iosvl2-1:
+        iosvl2-2:
+    junos:
+      hosts:
+        vqfx1:
+        ex4200:
+    l2device:
+      hosts:
+        vqfx1:
+        iosvl2-1:
+        iosvl2-2:
+        ex4200:
+    old:
+      hosts:
+        ex4200:
