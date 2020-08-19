@@ -2,23 +2,25 @@ intfs:
     interfaces:
     -   enabled: true
         name: loopback0
-    -   description: mgmt
-        duplex: auto
+    -   description: ANSIBLE CONFIGURED
+        enabled: true
+        name: loopback2
+    -   duplex: auto
         enabled: true
         name: GigabitEthernet0/0
-        speed: '1000'
-    -   description: test4
-        duplex: full
-        enabled: true
+        speed: auto
+    -   duplex: auto
+        enabled: false
         name: GigabitEthernet0/1
-        speed: '100'
+        speed: auto
     l3_interfaces:
     -   ipv4:
         -   address: 10.255.255.1 255.255.255.255
         name: loopback0
     -   ipv4:
+        -   address: 10.199.199.1 255.255.255.255
+        name: loopback2
+    -   ipv4:
         -   address: 172.16.1.101 255.255.255.0
         name: GigabitEthernet0/0
-    -   ipv4:
-        -   address: 10.10.100.101 255.255.255.0
-        name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/1
