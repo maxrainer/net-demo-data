@@ -1,18 +1,12 @@
 network_resources:
     acl_interfaces:
     -   name: Loopback0
-    -   access_groups:
-        -   afi: ipv4
-        name: Loopback1
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
     -   name: GigabitEthernet0/2
     interfaces:
     -   enabled: true
         name: loopback0
-    -   description: new loopback interface
-        enabled: true
-        name: loopback1
     -   duplex: auto
         enabled: true
         name: GigabitEthernet0/0
@@ -34,9 +28,6 @@ network_resources:
     -   ipv4:
         -   address: 10.255.255.2 255.255.255.255
         name: loopback0
-    -   ipv4:
-        -   address: 2.2.2.2 255.255.255.255
-        name: loopback1
     -   ipv4:
         -   address: 172.16.1.102 255.255.255.0
         name: GigabitEthernet0/0
