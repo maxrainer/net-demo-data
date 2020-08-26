@@ -21,7 +21,8 @@ network_resources:
         enabled: true
         name: GigabitEthernet0/1
         speed: auto
-    -   duplex: auto
+    -   description: new loopback interface gi0/2
+        duplex: auto
         enabled: false
         name: GigabitEthernet0/2
         speed: auto
