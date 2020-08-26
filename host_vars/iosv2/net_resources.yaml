@@ -1,12 +1,18 @@
 network_resources:
     acl_interfaces:
     -   name: Loopback0
+    -   name: Loopback1
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
-    -   name: GigabitEthernet0/2
+    -   access_groups:
+        -   afi: ipv4
+        name: GigabitEthernet0/2
+    -   name: gi0/2
     interfaces:
     -   enabled: true
         name: loopback0
+    -   enabled: true
+        name: loopback1
     -   duplex: auto
         enabled: true
         name: GigabitEthernet0/0
@@ -15,8 +21,10 @@ network_resources:
         enabled: true
         name: GigabitEthernet0/1
         speed: auto
-    -   description: new loopback interface gi0/2
-        duplex: auto
+    -   description: new loopback
+        enabled: true
+        name: GigabitEthernet0/2
+    -   duplex: auto
         enabled: false
         name: GigabitEthernet0/2
         speed: auto
@@ -24,16 +32,21 @@ network_resources:
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
     -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/2
     l3_interfaces:
     -   ipv4:
         -   address: 10.255.255.2 255.255.255.255
         name: loopback0
+    -   ipv4:
+        -   address: 9.9.9.9 255.255.255.255
+        name: loopback1
     -   ipv4:
         -   address: 172.16.1.102 255.255.255.0
         name: GigabitEthernet0/0
     -   ipv4:
         -   address: 10.10.100.102 255.255.255.0
         name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
     -   name: GigabitEthernet0/2
     lag_interfaces:
     -   name: GigabitEthernet0/0
