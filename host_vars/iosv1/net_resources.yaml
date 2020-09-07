@@ -1,9 +1,24 @@
 network_resources:
     acl_interfaces:
     -   name: Loopback0
-    -   name: Loopback3
+    -   access_groups:
+        -   acls:
+            -   direction: in
+                name: '10'
+            afi: ipv4
+        name: Loopback3
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
+    acls:
+    -   acls:
+        -   aces:
+            -   grant: permit
+                sequence: 10
+                source:
+                    address: 2.3.4.5
+            acl_type: standard
+            name: '10'
+        afi: ipv4
     interfaces:
     -   enabled: true
         name: loopback0
