@@ -1,15 +1,15 @@
 network_resources:
     acl_interfaces:
     -   name: Loopback0
-    -   name: Loopback2
+    -   name: Loopback3
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
     interfaces:
     -   enabled: true
         name: loopback0
-    -   description: ANSIBLE CONFIGURED
+    -   description: loopback3
         enabled: true
-        name: loopback2
+        name: loopback3
     -   duplex: auto
         enabled: true
         name: GigabitEthernet0/0
@@ -26,8 +26,8 @@ network_resources:
         -   address: 10.255.255.1 255.255.255.255
         name: loopback0
     -   ipv4:
-        -   address: 10.199.198.1 255.255.255.255
-        name: loopback2
+        -   address: 9.9.9.1 255.255.255.255
+        name: loopback3
     -   ipv4:
         -   address: 172.16.1.101 255.255.255.0
         name: GigabitEthernet0/0
