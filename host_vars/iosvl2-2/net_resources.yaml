@@ -2,7 +2,8 @@ network_resources:
     interfaces:
     -   enabled: true
         name: GigabitEthernet0/0
-    -   enabled: true
+    -   description: UPLINK TO iosvl2-1
+        enabled: true
         name: GigabitEthernet0/1
     -   enabled: true
         name: GigabitEthernet0/2
@@ -12,7 +13,13 @@ network_resources:
         name: Vlan1
     l2_interfaces:
     -   name: GigabitEthernet0/0
-    -   name: GigabitEthernet0/1
+    -   mode: trunk
+        name: GigabitEthernet0/1
+        trunk:
+            allowed_vlans:
+            - '10'
+            - '20'
+            encapsulation: dot1q
     -   name: GigabitEthernet0/2
     -   name: GigabitEthernet0/3
     l3_interfaces:
@@ -50,6 +57,16 @@ network_resources:
         shutdown: disabled
         state: active
         vlan_id: 1
+    -   mtu: 1500
+        name: ten
+        shutdown: disabled
+        state: active
+        vlan_id: 10
+    -   mtu: 1500
+        name: twenty
+        shutdown: disabled
+        state: active
+        vlan_id: 20
     -   mtu: 1500
         name: fddi-default
         shutdown: enabled
