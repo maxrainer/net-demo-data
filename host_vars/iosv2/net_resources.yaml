@@ -1,21 +1,22 @@
 network_resources:
     acl_interfaces:
-    -   name: Loopback0
     -   name: Loopback1
     -   access_groups:
         -   afi: ipv4
         name: Loopback2
+    -   name: Loopback3
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
     -   name: GigabitEthernet0/2
     interfaces:
     -   enabled: true
-        name: loopback0
-    -   enabled: true
         name: loopback1
     -   description: Loopback 2 interface
         enabled: true
         name: loopback2
+    -   description: OSPF AREA 2
+        enabled: true
+        name: loopback3
     -   duplex: auto
         enabled: true
         name: GigabitEthernet0/0
@@ -35,13 +36,13 @@ network_resources:
     l3_interfaces:
     -   ipv4:
         -   address: 10.255.255.2 255.255.255.255
-        name: loopback0
-    -   ipv4:
-        -   address: 9.9.9.8 255.255.255.255
         name: loopback1
     -   ipv4:
         -   address: 7.7.7.2 255.255.255.255
         name: loopback2
+    -   ipv4:
+        -   address: 9.9.9.2 255.255.255.255
+        name: loopback3
     -   ipv4:
         -   address: 172.16.1.102 255.255.255.0
         name: GigabitEthernet0/0
@@ -53,6 +54,13 @@ network_resources:
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
     -   name: GigabitEthernet0/2
+    ospfv2:
+        processes:
+        -   network:
+                address: 10.10.100.0
+                area: '0'
+                wildcard_bits: 0.0.0.255
+            process_id: 10
     static_routes:
     -   address_families:
         -   afi: ipv4

@@ -1,12 +1,7 @@
 network_resources:
     acl_interfaces:
     -   name: Loopback0
-    -   access_groups:
-        -   acls:
-            -   direction: in
-                name: '143'
-            afi: ipv4
-        name: Loopback3
+    -   name: Loopback3
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
     acls:
@@ -22,15 +17,6 @@ network_resources:
             -   destination:
                     any: true
                     port_protocol:
-                        eq: '443'
-                grant: permit
-                protocol: tcp
-                sequence: 10
-                source:
-                    any: true
-            -   destination:
-                    any: true
-                    port_protocol:
                         eq: '22'
                 grant: permit
                 protocol: tcp
@@ -43,7 +29,7 @@ network_resources:
     interfaces:
     -   enabled: true
         name: loopback0
-    -   description: loopback3
+    -   description: OSPF AREA 1
         enabled: true
         name: loopback3
     -   duplex: auto
@@ -62,7 +48,7 @@ network_resources:
         -   address: 10.255.255.1 255.255.255.255
         name: loopback0
     -   ipv4:
-        -   address: 9.9.8.1 255.255.255.255
+        -   address: 9.9.9.1 255.255.255.255
         name: loopback3
     -   ipv4:
         -   address: 172.16.1.101 255.255.255.0
@@ -73,6 +59,13 @@ network_resources:
     lag_interfaces:
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
+    ospfv2:
+        processes:
+        -   network:
+                address: 10.10.100.0
+                area: '0'
+                wildcard_bits: 0.0.0.255
+            process_id: 10
     static_routes:
     -   address_families:
         -   afi: ipv4
