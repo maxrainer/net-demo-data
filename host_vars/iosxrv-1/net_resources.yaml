@@ -1,14 +1,57 @@
 network_resources:
     acl_interfaces:
-    -   name: GigabitEthernet0/0/0/0
+    -   access_groups:
+        -   acls:
+            -   direction: out
+                name: any
+            afi: ipv4
+        name: GigabitEthernet0/0/0/0
+    -   name: Loopback3
     -   name: MgmtEth0/0/CPU0/0
-    acls: []
+    acls:
+    -   acls:
+        -   aces:
+            -   destination:
+                    any: true
+                grant: permit
+                protocol: ipv4
+                sequence: 10
+                source:
+                    any: true
+            name: any
+        -   aces:
+            -   destination:
+                    any: true
+                    port_protocol:
+                        eq: ssh
+                grant: permit
+                protocol: tcp
+                sequence: 10
+                source:
+                    any: true
+            -   destination:
+                    any: true
+                    port_protocol:
+                        eq: '443'
+                grant: permit
+                protocol: tcp
+                sequence: 20
+                source:
+                    any: true
+            name: sec
+        afi: ipv4
     interfaces:
+    -   description: loo3
+        enabled: true
+        name: Loopback3
     -   enabled: true
         name: GigabitEthernet0/0/0/0
     l2_interfaces:
     -   name: GigabitEthernet0/0/0/0
     l3_interfaces:
+    -   ipv4:
+        -   address: 8.8.8.4 255.255.255.255
+        name: Loopback3
     -   ipv4:
         -   address: 10.10.100.104 255.255.255.0
         name: GigabitEthernet0/0/0/0
