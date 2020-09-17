@@ -61,12 +61,20 @@ network_resources:
     -   name: GigabitEthernet0/1
     ospfv2:
         processes:
-        -   network:
-                address: 9.9.9.1
-                area: '1'
-                wildcard_bits: 0.0.0.0
-            process_id: 1
-        -   network:
+        -   areas:
+            -   area_id: '1'
+                ranges:
+                -   address: 9.9.9.1
+                    cost: 100
+                    netmask: 255.255.255.255
+                -   address: 9.9.9.0
+                    cost: 100
+                    netmask: 255.255.255.0
+            neighbor:
+                address: 9.9.9.2
+                cost: 10
+                priority: 10
+            network:
                 address: 10.10.100.0
                 area: '0'
                 wildcard_bits: 0.0.0.255
