@@ -62,6 +62,11 @@ network_resources:
     ospfv2:
         processes:
         -   network:
+                address: 9.9.9.1
+                area: '1'
+                wildcard_bits: 0.0.0.0
+            process_id: 1
+        -   network:
                 address: 10.10.100.0
                 area: '0'
                 wildcard_bits: 0.0.0.255
