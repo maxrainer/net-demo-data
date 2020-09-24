@@ -1,6 +1,7 @@
 network_resources:
     interfaces:
-    -   enabled: true
+    -   description: UPLINK TO KVM
+        enabled: true
         name: GigabitEthernet0/0
     -   enabled: true
         name: GigabitEthernet0/1
