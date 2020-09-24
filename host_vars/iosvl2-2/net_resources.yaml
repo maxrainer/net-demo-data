@@ -7,8 +7,7 @@ network_resources:
         name: GigabitEthernet0/1
     -   enabled: true
         name: GigabitEthernet0/2
-    -   description: new vlan 40 int
-        enabled: true
+    -   enabled: true
         name: GigabitEthernet0/3
     -   enabled: true
         name: Vlan1
@@ -25,9 +24,7 @@ network_resources:
     -   access:
             vlan: 30
         name: GigabitEthernet0/2
-    -   access:
-            vlan: 40
-        name: GigabitEthernet0/3
+    -   name: GigabitEthernet0/3
     l3_interfaces:
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
@@ -78,11 +75,6 @@ network_resources:
         shutdown: disabled
         state: active
         vlan_id: 30
-    -   mtu: 1500
-        name: fourty
-        shutdown: disabled
-        state: active
-        vlan_id: 40
     -   mtu: 1500
         name: fddi-default
         shutdown: enabled
