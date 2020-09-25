@@ -42,7 +42,7 @@ network_resources:
         -   address: 7.7.7.2 255.255.255.255
         name: loopback2
     -   ipv4:
-        -   address: 9.9.9.2 255.255.255.255
+        -   address: 8.8.8.2 255.255.255.255
         name: loopback3
     -   ipv4:
         -   address: 172.16.1.102 255.255.255.0
