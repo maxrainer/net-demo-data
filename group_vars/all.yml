@@ -1,0 +1,23 @@
+---
+
+ansible_connection: network_cli
+
+ansible_user: cisco
+ansible_ssh_pass: cisco123
+ansible_become_pass: cisco123
+
+git_token: c76d5a343f55210b256e2f02401fe376dccb1bb1
+
+lookup:
+  861: other1
+  600: other1
+  601: other1
+  10: customer10
+  11: customer11
+  12: customer12
+  13: customer13
+  14: customer11
+  3205: voiceCustomerXY
+  3204: voiceCustomerZZ
+  552: other2
+  550: other2
