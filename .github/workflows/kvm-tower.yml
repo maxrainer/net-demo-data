@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: except all certs
         run: |
-          export NODE_TLS_REJECT_UNAUTHORIZED=0
+          export NODE_TLS_REJECT_UNAUTHORIZED='0'
           export
       - name: Web Request Action
         uses: Satak/webrequest-action@v1.2.3
