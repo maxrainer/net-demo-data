@@ -4,6 +4,9 @@ jobs:
   webhook:
     runs-on: ubuntu-latest
     steps:
+      - name: except all certs
+        run: |
+          NODE_TLS_REJECT_UNAUTHORIZED=0
       - name: Web Request Action
         uses: Satak/webrequest-action@v1.2.3
         with:
