@@ -10,7 +10,7 @@ jobs:
       - name: webhook
         uses: joelwmale/webhook-action@master
         with:
-          url: ${{ secrets.WEBHOOK_URL }}
+          url: ${{ secrets.TOWER_URL }}
           headers: '{"repository": "joelwmale/webhook-action",
                     "xSecretx": "${{ secrets.TOWER_TOKEN }}"}'
           body: '{"event": "deployment", "repository": "joelwmale/webhook-action"}'
