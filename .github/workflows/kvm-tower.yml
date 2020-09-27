@@ -8,6 +8,7 @@ jobs:
         run: |
           export
       - name: webhook
+        uses: joelwmale/webhook-action@master
         with:
           url: ${{ secrets.WEBHOOK_URL }}
           headers: '{"repository": "joelwmale/webhook-action",
