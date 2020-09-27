@@ -7,6 +7,7 @@ jobs:
       - name: except all certs
         run: |
           export
+      - name: webhook
         with:
           url: ${{ secrets.WEBHOOK_URL }}
           headers: '{"repository": "joelwmale/webhook-action",
