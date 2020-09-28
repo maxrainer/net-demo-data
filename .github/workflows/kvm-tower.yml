@@ -5,6 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: trigger workflow_template on tower
-        uses: wei/curl@v1.1.1
-        with: 
-          args: -H "Authorization: Bearer ${{ secrets.TOWER_TOKEN }}" -d '{"foo": "bar"}' -X POST ${{ secrets.TOWER_URL }}
+        run: |
+          curl -H Authorization: Bearer ${{ secrets.TOWER_TOKEN }} -d '{"foo": "bar"}' -X POST ${{ secrets.TOWER_URL }}
