@@ -9,4 +9,5 @@ jobs:
           curl \
             -H "Authorization: Bearer ${{ secrets.TOWER_TOKEN }}" \
             -H "Content-Type: application/json" \
+            -d { "extra_vars": "{'foo': 'bar'}", "limit": "iosv1,iosv2" }
             -X POST ${{ secrets.TOWER_URL }}
