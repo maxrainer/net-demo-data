@@ -12,6 +12,6 @@ jobs:
         with:
           url: ${{ secrets.TOWER_URL }}
           headers: '{"repository": "joelwmale/webhook-action",
-                    "xSecretx": "${{ secrets.TOWER_TOKEN }}"}'
+                    "Authorization: Bearer ${{ secrets.TOWER_TOKEN }}"}'
           body: '{"event": "deployment", "repository": "joelwmale/webhook-action"}'
 
