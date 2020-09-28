@@ -4,14 +4,7 @@ jobs:
   webhook:
     runs-on: ubuntu-latest
     steps:
-      - name: except all certs
-        run: |
-          export
-      - name: trigger Workflow Template on Tower
-        uses: joelwmale/webhook-action@master
-        with:
-          url: ${{ secrets.TOWER_URL }}
-          headers: '{"repository": "joelwmale/webhook-action",
-                    "Authorization: Bearer ${{ secrets.TOWER_TOKEN }}"}'
-          body: '{"extra_vars": {"foo": "bar"} }'
-
+      - name: trigger workflow_template on tower
+        uses: wei/curl@v1.1.1
+        with: 
+          args: -H "Authorization: Bearer ${{ secrets.TOWER_TOKEN }}" -d '{"foo": "bar"}' -X POST ${{ secrets.TOWER_URL }}
