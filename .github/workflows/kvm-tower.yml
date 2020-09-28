@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: trigger workflow_template on tower
         run: |
-          curl -H "Authorization: Bearer ${{ secrets.TOWER_TOKEN }}" -d '{"foo": "bar"}' -X POST ${{ secrets.TOWER_URL }}
+          curl -H "Authorization: Bearer ${{ secrets.TOWER_TOKEN }}" -H "Content-Type: application/json" -d '{"foo": "bar"}' -X POST ${{ secrets.TOWER_URL }}
