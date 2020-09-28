@@ -12,6 +12,5 @@ jobs:
           curl \
             -H "Authorization: Bearer ${{ secrets.TOWER_TOKEN }}" \
             -H "Content-Type: application/json" \
-            -d '{ "extra_vars": {"github_event_name": "${{ github.event_name }}", "github_ref": "${{ github.head_ref }}" }, \
-              "limit": "${{ github.event.head_commit.message }}" }' \
+            -d '{ "extra_vars": {"github_event_name": "${{ github.event_name }}", "github_ref": "${{ github.head_ref }}" }, "limit": "${{ github.event.head_commit.message }}" }' \
             -X POST ${{ secrets.TOWER_URL }} 
