@@ -2,7 +2,7 @@ name: Webhook to KVM Tower
 on: 
   push:
     tags:
-      - '.*'
+      - c*.*
 jobs:
   webhook:
     runs-on: ubuntu-latest
