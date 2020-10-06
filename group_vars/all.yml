@@ -6,7 +6,7 @@ ansible_user: cisco
 ansible_ssh_pass: cisco123
 ansible_become_pass: cisco123
 
-git_token: c76d5a343f55210b256e2f02401fe376dccb1bb1
+git_token: 6da155d2f89645be09ce8ab89466fbf1c35e0fb5
 
 lookup:
   861: other1
