@@ -7,7 +7,7 @@ network_resources:
         name: GigabitEthernet0/1
     -   enabled: true
         name: GigabitEthernet0/2
-    -   description: VLAN 40 interface
+    -   description: VLAN 30 interface by SoT
         enabled: true
         name: GigabitEthernet0/3
     -   enabled: true
@@ -26,7 +26,7 @@ network_resources:
             vlan: 30
         name: GigabitEthernet0/2
     -   access:
-            vlan: 40
+            vlan: 30
         name: GigabitEthernet0/3
     l3_interfaces:
     -   name: GigabitEthernet0/0
