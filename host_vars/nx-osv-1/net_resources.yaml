@@ -1020,6 +1020,7 @@ network_resources:
     -   name: Ethernet4/47
     -   name: Ethernet4/48
     ospfv2: []
+    ospfv3: []
     static_routes:
     -   address_families:
         -   afi: ipv4
