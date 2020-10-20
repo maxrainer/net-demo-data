@@ -22,7 +22,8 @@ network_resources:
         enabled: true
         name: GigabitEthernet0/1
         speed: auto
-    -   duplex: auto
+    -   description: ANSIBLE CONFIGURED
+        duplex: auto
         enabled: true
         name: GigabitEthernet0/2
         speed: auto
@@ -36,7 +37,7 @@ network_resources:
         name: loopback1
     -   name: loopback2
     -   ipv4:
-        -   address: 8.8.8.2 255.255.255.255
+        -   address: 8.8.7.2 255.255.255.255
         name: loopback3
     -   ipv4:
         -   address: 172.16.1.102 255.255.255.0
@@ -44,7 +45,9 @@ network_resources:
     -   ipv4:
         -   address: 10.10.100.102 255.255.255.0
         name: GigabitEthernet0/1
-    -   name: GigabitEthernet0/2
+    -   ipv4:
+        -   address: 10.10.243.1 255.255.255.0
+        name: GigabitEthernet0/2
     lag_interfaces:
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1

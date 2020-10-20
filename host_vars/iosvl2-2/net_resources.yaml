@@ -7,7 +7,7 @@ network_resources:
         name: GigabitEthernet0/1
     -   enabled: true
         name: GigabitEthernet0/2
-    -   description: config by Ansible
+    -   description: new vlan 40
         enabled: true
         name: GigabitEthernet0/3
     -   enabled: true
@@ -23,9 +23,11 @@ network_resources:
             - '30'
             encapsulation: dot1q
     -   access:
-            vlan: 30
+            vlan: 20
         name: GigabitEthernet0/2
-    -   name: GigabitEthernet0/3
+    -   access:
+            vlan: 40
+        name: GigabitEthernet0/3
     l3_interfaces:
     -   name: GigabitEthernet0/0
     -   name: GigabitEthernet0/1
@@ -76,6 +78,11 @@ network_resources:
         shutdown: disabled
         state: active
         vlan_id: 30
+    -   mtu: 1500
+        name: fourty
+        shutdown: disabled
+        state: active
+        vlan_id: 40
     -   mtu: 1500
         name: fddi-default
         shutdown: enabled
