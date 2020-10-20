@@ -7,7 +7,8 @@ network_resources:
         name: GigabitEthernet0/1
     -   enabled: true
         name: GigabitEthernet0/2
-    -   enabled: true
+    -   description: config by Ansible
+        enabled: true
         name: GigabitEthernet0/3
     -   enabled: true
         name: Vlan1
